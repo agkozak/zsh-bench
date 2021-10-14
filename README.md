@@ -22,6 +22,7 @@ Benchmark for interactive zsh.
   - [Full benchmark data](#full-benchmark-data)
   - [Conclusions](#conclusions)
 - [License](#license)
+- [FAQ](#faq)
 
 ## Summary
 
@@ -274,7 +275,7 @@ Let's see what some of the popular premade zsh configs offer out of the box.
 | [prezto](https://github.com/romkatv/zsh-bench/tree/master/configs/prezto) | ❌ | ✔️ | ❌ | ❌ | ❌ | 98%<br>🟡 | 35%<br>🟢 | 13%<br>🟢 | 1%<br>🟢 |
 | [ohmyzsh](https://github.com/romkatv/zsh-bench/tree/master/configs/ohmyzsh) | ❌ | ✔️ | ❌ | ❌ | ✔️ | 285%<br>🔴 | 97%<br>🟡 | 836%<br>🔴 | 1%<br>🟢 |
 | [zim](https://github.com/romkatv/zsh-bench/tree/master/configs/zim) | ❌ | ✔️ | ✔️ | ✔️ | ✔️ | 228%<br>🔴 | 88%<br>🟡 | 858%<br>🔴 | 68%<br>🟡 |
-| [zsh4humans](https://github.com/romkatv/zsh-bench/tree/master/configs/zsh4humans) | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | 29%<br>🟢 | 36%<br>🟢 | 25%<br>🟢 | 27%<br>🟢 |
+| [zsh4humans](https://github.com/romkatv/zsh-bench/tree/master/configs/zsh4humans) | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | 28%<br>🟢 | 35%<br>🟢 | 25%<br>🟢 | 26%<br>🟢 |
 
 The names of these configs match the respective public projects from which they were copied:
 [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh), [prezto](https://github.com/sorin-ionescu/prezto),
@@ -568,13 +569,13 @@ benchmarked several plugin managers and frameworks. All configs here have all co
 |-|-:|-:|-:|-:|-:|-:|-:|-:|-:|
 | [diy++](https://github.com/romkatv/zsh-bench/tree/master/configs/diy%2B%2B) | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | 18%<br>🟢 | 45%<br>🟢 | 25%<br>🟢 | 66%<br>🟡 |
 | [diy++unsafe](https://github.com/romkatv/zsh-bench/tree/master/configs/diy%2B%2Bunsafe) | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | 18%<br>🟢 | 40%<br>🟢 | 25%<br>🟢 | 66%<br>🟡 |
-| [zcomet](https://github.com/romkatv/zsh-bench/tree/master/configs/zcomet) | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | 18%<br>🟢 | 41%<br>🟢 | 25%<br>🟢 | 67%<br>🟡 |
+| [zcomet](https://github.com/romkatv/zsh-bench/tree/master/configs/zcomet) | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | 18%<br>🟢 | 46%<br>🟢 | 25%<br>🟢 | 66%<br>🟡 |
 | [zinit](https://github.com/romkatv/zsh-bench/tree/master/configs/zinit) | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | 18%<br>🟢 | 80%<br>🟡 | 25%<br>🟢 | 69%<br>🟡 |
 | [zplug](https://github.com/romkatv/zsh-bench/tree/master/configs/zplug) | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | 108%<br>🟠 | 101%<br>🟠 | 25%<br>🟢 | 68%<br>🟡 |
 | [ohmyzsh+](https://github.com/romkatv/zsh-bench/tree/master/configs/ohmyzsh%2B) | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | 18%<br>🟢 | 59%<br>🟡 | 30%<br>🟢 | 67%<br>🟡 |
 | [prezto+](https://github.com/romkatv/zsh-bench/tree/master/configs/prezto%2B) | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | 22%<br>🟢 | 54%<br>🟡 | 36%<br>🟢 | 74%<br>🟡 |
 | [zim+](https://github.com/romkatv/zsh-bench/tree/master/configs/zim%2B) | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | 18%<br>🟢 | 42%<br>🟢 | 25%<br>🟢 | 72%<br>🟡 |
-| [zsh4humans](https://github.com/romkatv/zsh-bench/tree/master/configs/zsh4humans) | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | 29%<br>🟢 | 36%<br>🟢 | 25%<br>🟢 | 27%<br>🟢 |
+| [zsh4humans](https://github.com/romkatv/zsh-bench/tree/master/configs/zsh4humans) | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | 28%<br>🟢 | 35%<br>🟢 | 25%<br>🟢 | 26%<br>🟢 |
 
 **diy++** and **diy++unsafe** are listed here to serve as baseline for comparing latency.
 
@@ -594,30 +595,30 @@ All configs in this list except for **zsh4humans** treat [zsh-syntax-highlightin
 and [powerlevel10k](https://github.com/romkatv/zsh-bench/tree/master/configs/powerlevel10k) as black
 boxes. They cannot beat **diy++unsafe** on benchmarks.
 
-**zim+** and **zcomet** beat **diy++**—the safe version—on one metric. Both **zim** and **zcomet**
-rely on [unsafe optimizations](#cutting-corners) to gain this advantage: they compile user rc files
-and invoke `compinit` with `-C`. This is not a good choice in my opinion. The small speedup isn't
+**zim+** beats **diy++**—the safe version—on one metric. **zim** relies on
+[unsafe optimizations](#cutting-corners) to gain this advantage: it compiles user rc files and
+invokes `compinit` with `-C`. This is not a good choice in my opinion. The small speedup isn't
 worth it.
 
 All configs have very low *first prompt lag* thanks to powerlevel10k. The only exception is
 **zplug**. **zplug** provides a nice API that plays well with [Instant Prompt](#instant-prompt). It
 has one function to install plugins and another to load them. Installation of plugins can print
 status messages and perform network I/O, so it should be done before the first prompt is printed.
-Unfortunately, this function in **zplug** is rather slow, hence high *first prompt lag*. **zcomet**
-and **zinit** dodge this bullet by not providing this kind of API in the first place, so these
-configs are [cutting corners](#cutting-corners). It's not that **zinit** or **zcomet** are acting
-recklessly here but rather their limitations don't allow me to cleanly use *Instant Prompt*. When
-using these plugin managers you either have to give up *Instant Prompt* and have *first prompt lag*
-over the threshold or cut corners and get subpar UX.
+Unfortunately, this function in **zplug** is rather slow, hence high *first prompt lag*. **zcomet**,
+**zinit** and **zim** dodge this bullet by not providing this kind of API in the first place, so
+these configs are [cutting corners](#cutting-corners). It's not that **zcomet**, **zinit** or
+**zim** are acting recklessly here but rather their limitations don't allow me to cleanly use
+*Instant Prompt*. When using these plugin managers you either have to give up *Instant Prompt* and
+have *first prompt lag* over the threshold or cut corners and get subpar UX.
 
 **zsh4humans** has lower *first command lag* and *input lag* than anything else. It achieves this by
 implementing tight integration between the core shell features: prompt, syntax highlighting
 and autosuggestions. You can enable *extra* plugins in **zsh4humans** but the core comes as a single
 unit.
 
-**zsh4humans** has *first prompt lag* 11% (5ms in absolute terms) higher than **diy++**. A lot of
+**zsh4humans** has *first prompt lag* 10% (5ms in absolute terms) higher than **diy++**. A lot of
 features are packed into that chunk of time but this isn't the place to describe them. The resulting
-*first prompt lag* is still just 29% of the threshold of perception, so I'm feeling pretty secure
+*first prompt lag* is still just 28% of the threshold of perception, so I'm feeling pretty secure
 that this latency won't be noticeable. Importantly, when users add extra initialization code to
 their zsh startup files, it doesn't increase *first prompt lag*. It increases only
 *first command lag*, which **zsh4humans** has at a lower value than other configs. Overall I'm
@@ -662,7 +663,7 @@ to be loaded from zle and may fail to properly initialize. Loading such plugins 
 workarounds that often rely on the plugin's implementation details. This exposes the user to much
 higher risk of breakage when updating plugins.
 
-Deferred initialization can reduce only *first cmd lag*. If done properly, it has have no effect on
+Deferred initialization can reduce only *first cmd lag*. If done properly, it has no effect on
 other latencies. Given that there are many configs to choose from that are below the threshold on
 *first cmd lag*, deferred initialization doesn't solve any real problems while adding quite a few of
 its own.
@@ -712,9 +713,9 @@ fall into the trap. The timing of `exit` is very close to *first prompt lag* and
 measure of zsh startup performance. At some point these latencies have diverged, the benchmark lost
 its meaning, but the old habits remained.
 
-**zsh4humans** clocks at 5.6ms on `exit` -- only twice as much as the baseline **no-rcs**. I'd be
-overjoyed if I could claim that **zsh4humans** initializes that fast but there is
-no meaningful definition of initialization for which this claim would be true.
+**zsh4humans** clocks at 5ms on `exit` -- only 3ms above the baseline **no-rcs**. I'd be overjoyed
+if I could claim that **zsh4humans** initializes that fast but there is no meaningful definition of
+initialization for which this claim would be true.
 
 The output of `time zsh -lic "exit"` tells you how long it takes to execute
 `zsh -lic "exit"` and nothing else. If you aren't in the habit of running `zsh -lic "exit"`, there
@@ -722,7 +723,7 @@ is no reason for you to care one way or another about this number.
 
 ### Full benchmark data
 
-- Date: 2021-10-10.
+- Date: 2021-10-14.
 - OS: Ubuntu 20.04.
 - CPU: AMD Ryzen Threadripper 3970x.
 - Results: [raw](https://github.com/romkatv/zsh-bench/blob/master/doc/benchmarks.txt),
@@ -760,3 +761,11 @@ is no reason for you to care one way or another about this number.
 ## License
 
 [MIT](https://github.com/romkatv/zsh-bench/blob/master/LICENSE).
+
+## FAQ
+
+### Why is it important to benchmark my shell? Is it for enthusiasts?
+
+It's not important to benchmark your shell. It is important for *me* to benchmark zsh plugins and
+configs that I publish so that users of my code have fast shell. Shell users—or anyone for that
+matter—prefer fast software over slow whether they are enthusiasts or not.
